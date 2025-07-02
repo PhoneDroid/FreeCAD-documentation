@@ -78,7 +78,7 @@ import git
 import inspect
 
 unhandledTemplates = [] # holder for unhandled templates
-BASE_URL = "https://wiki.freecadweb.org"
+BASE_URL = "https://wiki.freecad.org"
 THREADS = 8 # number of threads for file writing
 WIKIFOLDER = "wiki"
 CATEGORY_COLUMNS = 3 # the number of columns on category pages
@@ -96,7 +96,7 @@ UNUSED_TEMPLATES = ["Userdocnavi","Powerdocnavi","Arch Tools navi","\\#translati
 class MediaWiki:
 
     """MediaWiki([url]) - A class to represent an online MediaWiki instance.
-       default url is wiki.freecadweb.org"""
+       default url is wiki.freecad.org"""
 
     def __init__(self,url=BASE_URL):
 

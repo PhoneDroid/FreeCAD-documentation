@@ -1,10 +1,10 @@
-# <img src="https://freecadweb.org/images/logo.png" style="zoom:33%;" /> FreeCAD documentation rewrite
+# <img src="https://www.freecad.org/images/loader-freecad.gif" height="24" /> FreeCAD documentation rewrite
 
 
 
 #### Problem
 
-The current documentation system is built with [Qt Assistant](https://doc.qt.io/qt-5/assistant-quick-guide.html). It consists of a large set of HTML files obtained by scraping and converting pages from the [FreeCAD wiki](https://wiki.freecadweb.org) with their associated images. These files are bundled in a giant (~500 Mb) QHelp file that is bundled withing the FreeCAD source code. This causes many problems:
+The current documentation system is built with [Qt Assistant](https://doc.qt.io/qt-5/assistant-quick-guide.html). It consists of a large set of HTML files obtained by scraping and converting pages from the [FreeCAD Wiki][Wiki] with their associated images. These files are bundled in a giant (~500 Mb) QHelp file that is bundled withing the FreeCAD source code. This causes many problems:
 
 * Gathering the HTML content is typically done at releases, is clunky and offers a pale, reduced and often outdated version of the wiki content
 * The 500 Mb file is too large for many git hosting platforms (such as GitHub) which forces us to do hacks such as splitting it in the source, and it causes big bloat of the Git history
@@ -35,3 +35,5 @@ A system that stops using Qt Assistant, allows people to still use the wiki (for
 * Python API documentation can be regenerated each time, precisely tailored and tighly integrated into the documentation
 * The documentation can be much better integrated everywhere: In menus, in tooltips (for ex. tooltips could display some contents from the docs, ex. images)
 
+
+[Wiki]: https://wiki.freecad.org

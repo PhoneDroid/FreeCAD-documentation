@@ -1,6 +1,6 @@
 # FreeCAD documentation
 
-This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between mediawiki and markdown formats.
+This repository contains an automatic conversion of the [FreeCAD Wiki][Wiki] to [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between mediawiki and markdown formats.
 
 The general idea is to keep allowing users to use the wiki to edit and add contents, while the markdown format for:
 
@@ -21,3 +21,5 @@ Further goals:
 * Tie the FreeCAD what's this system to the Help workbench
 * Allow to export parts of the documentation to other formats (PDF, ePub,...)
 
+
+[Wiki]: https://wiki.freecad.org

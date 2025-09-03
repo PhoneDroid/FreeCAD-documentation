@@ -46,7 +46,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   The [dependency graph](Std_DependencyGraph.md) benefited from graphical enhancements.
 -   STEP import leverages the new [Part container](Std_Part.md) and uses it to organize an imported STEP assembly into sub-assemblies, now more closely following the original document\'s structure. stpZ (a compressed STEP format) is now supported.
--   Most of FreeCAD\'s icons were reworked to better comply with [Tango guidelines](http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines).
+-   Most of FreeCAD\'s icons were reworked to better comply with [Tango guidelines](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines).
 
 -   The FreeCAD project acknowledges the contributions of its community by adding a Credits tab in the *About FreeCAD* dialog. New License and Libraries tabs list FreeCAD\'s license and provide info on used third-party libraries.
 
